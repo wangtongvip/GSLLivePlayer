@@ -1,0 +1,83 @@
+{
+    "sdkappid": 1400190541,
+    "users": [
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"student1",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InN0dWRlbnQxIiwicm9sZSI6InN0dWRlbnQiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI2ODM3MjUsInJvb21JZCI6MTAxODl9.jubA3XrMIOfxEiHo91P0n_8GggjwpXdIQCq6tawfo9I"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"student2",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InN0dWRlbnQyIiwicm9sZSI6InN0dWRlbnQiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI3NTEwNTMsInJvb21JZCI6MTAxODl9.kYSZ3up99QlkslnnKifRng28CPpXDiIlBR40Kg4zc6I"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"student3",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InN0dWRlbnQzIiwicm9sZSI6InN0dWRlbnQiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI3ODI5MzIsInJvb21JZCI6MTAxODl9.u0-0QHf1Hi-X7Xlw4UWkiCsCna_JPPYqonsypVvALIg"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"student4",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InN0dWRlbnQ0Iiwicm9sZSI6InN0dWRlbnQiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI3OTgwNTUsInJvb21JZCI6MTAxODl9.yx3oGKIPxXMkz2Pzk8UiV0SJ3NXuv8-Ta9xyhh3G3go"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"student5",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InN0dWRlbnQ1Iiwicm9sZSI6InN0dWRlbnQiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI4MjA2MjAsInJvb21JZCI6MTAxODl9.VOjGbCZo1pAhoQ-E8DHS6CxaorsMoNHMJOz9gcbvkrs"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"student6",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InN0dWRlbnQ2Iiwicm9sZSI6InN0dWRlbnQiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI4NDEzODQsInJvb21JZCI6MTAxODl9.9_hwvEyDrcgv8ZkyanYr7-gXDNH20iqr1eSIC9zgWx0"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10174",
+            "roomId":"10189",
+            "userId":"student7",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InN0dWRlbnQ3Iiwicm9sZSI6InN0dWRlbnQiLCJhcHBJZCI6MTAwMDAwMiwidXNlckdyb3VwIjoiYWxsIiwidG9rZW5FeHBpcmUiOjE1Njg2OTI4NTkwMTUsInJvb21JZCI6MTAxODl9.qwftLlYMAlk3X19oG8CC_14SwYmQWZzuNJLupd9S8fA"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10209",
+            "roomId":"10224",
+            "userId":"WT_S001_10209",
+            "userToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6MTAwMDAwMiwicm9vbUlkIjoxMDIyNCwibGl2ZUlkIjoxMDIwOSwicGxheWJhY2tJZCI6bnVsbCwicm9sZSI6InN0dWRlbnQiLCJ1c2VyR3JvdXAiOiJhbGwiLCJ1c2VyRmxhZyI6IldUX1MwMDFfMTAyMDkiLCJ0b2tlbkV4cGlyZSI6MTU5Njc2NzUwNTEwNCwiaWF0IjoxNTY1MjU3OTI4fQ.JusU5AyrHDYRSULqRRTszdYHi5UN-qLDDrVO0VSxJ50"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10209",
+            "roomId":"10224",
+            "userId":"WT_S002_10209",
+            "userToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6MTAwMDAwMiwicm9vbUlkIjoxMDIyNCwibGl2ZUlkIjoxMDIwOSwicGxheWJhY2tJZCI6bnVsbCwicm9sZSI6InN0dWRlbnQiLCJ1c2VyR3JvdXAiOiJhbGwiLCJ1c2VyRmxhZyI6IldUX1MwMDJfMTAyMDkiLCJ0b2tlbkV4cGlyZSI6MTU5Njc2NzUwNTEwNCwiaWF0IjoxNTY1MjU4MDE4fQ.qtMX1nP03tz_Fc5ofLz8dzqkAAeq5kBbzUbZ5cGKsT8"
+        },
+        {
+            "appId":"1000002",
+            "liveId":"10209",
+            "roomId":"10224",
+            "userId":"WT_S003_10209",
+            "userToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6MTAwMDAwMiwicm9vbUlkIjoxMDIyNCwibGl2ZUlkIjoxMDIwOSwicGxheWJhY2tJZCI6bnVsbCwicm9sZSI6InN0dWRlbnQiLCJ1c2VyR3JvdXAiOiJhbGwiLCJ1c2VyRmxhZyI6IldUX1MwMDNfMTAyMDkiLCJ0b2tlbkV4cGlyZSI6MTU5Njc2NzUwNTEwNCwiaWF0IjoxNTY1MjU4MDY0fQ.VddN8FiU3_jEqmzZCkkxYMi45CwdfUDGCkMEJG5gs3Y"
+        },
+        {
+            "appId":"1000001",
+            "liveId":"10211",
+            "roomId":"10226",
+            "userId":"yingg4",
+            "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyRmxhZyI6InlpbmdnNCIsInJvbGUiOiJzdHVkZW50IiwiYXBwSWQiOjEwMDAwMDEsInVzZXJHcm91cCI6InRlc3QiLCJ0b2tlbkV4cGlyZSI6MTU2ODg0NzE3Mjg0Mywicm9vbUlkIjoxMDIyNn0.lfaWLcmnITqyCC4lRb26tvmtJqUq9ATuhZ5tda05YFs"
+        }
+    ]
+}
+

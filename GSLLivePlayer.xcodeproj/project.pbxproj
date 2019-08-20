@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652D52F122CC856B007451FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F022CC856B007451FA /* AppDelegate.m */; };
+		652D52F722CC856B007451FA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F622CC856B007451FA /* DemoViewController.m */; };
+		652D52FA22CC856B007451FA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F922CC856B007451FA /* SettingViewController.m */; };
+		652D52FD22CC856B007451FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652D52FB22CC856B007451FA /* Main.storyboard */; };
+		652D52FF22CC856F007451FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652D52FE22CC856F007451FA /* Assets.xcassets */; };
+		652D530222CC856F007451FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652D530022CC856F007451FA /* LaunchScreen.storyboard */; };
+		652D530522CC856F007451FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D530422CC856F007451FA /* main.m */; };
+		652D530F22CC856F007451FA /* GSLLivePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D530E22CC856F007451FA /* GSLLivePlayerTests.m */; };
+		652D531A22CC856F007451FA /* GSLLivePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D531922CC856F007451FA /* GSLLivePlayerUITests.m */; };
+		6539538922FBF24E0029FEAC /* paramsConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6539538822FBF24D0029FEAC /* paramsConfiguration.json */; };
+		6555DFC422FD4AFB00A7DEE6 /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657431E322F1975A00D12531 /* GSLLivePlayerFramework.framework */; };
+		6566EF2B22DDA8EF00261CF3 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6566EF2A22DDA8EF00261CF3 /* LiveRoomViewController.m */; };
+		65695C8622F2957300518FDA /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE3DE222F2915E004DBDF2 /* GSLSignalingCenterFramework.framework */; };
+		65695C8722F2957300518FDA /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE3DE222F2915E004DBDF2 /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		657431E822F199F900D12531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657431E722F199F900D12531 /* UIKit.framework */; };
+		657F0E3222E9AC82002BAC65 /* SettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3122E9AC82002BAC65 /* SettingManager.m */; };
+		657F0E5622E9B188002BAC65 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3522E9B188002BAC65 /* IQTextView.m */; };
+		657F0E5722E9B188002BAC65 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3922E9B188002BAC65 /* IQToolbar.m */; };
+		657F0E5822E9B188002BAC65 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3B22E9B188002BAC65 /* IQTitleBarButtonItem.m */; };
+		657F0E5922E9B188002BAC65 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3C22E9B188002BAC65 /* IQBarButtonItem.m */; };
+		657F0E5A22E9B188002BAC65 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3D22E9B188002BAC65 /* IQUIView+IQKeyboardToolbar.m */; };
+		657F0E5B22E9B188002BAC65 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3E22E9B188002BAC65 /* IQPreviousNextView.m */; };
+		657F0E5C22E9B188002BAC65 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 657F0E4622E9B188002BAC65 /* IQKeyboardManager.bundle */; };
+		657F0E5D22E9B188002BAC65 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E4922E9B188002BAC65 /* IQKeyboardManager.m */; };
+		657F0E5E22E9B188002BAC65 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E4B22E9B188002BAC65 /* IQNSArray+Sort.m */; };
+		657F0E5F22E9B188002BAC65 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E4D22E9B188002BAC65 /* IQUITextFieldView+Additions.m */; };
+		657F0E6022E9B188002BAC65 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E4E22E9B188002BAC65 /* IQUIScrollView+Additions.m */; };
+		657F0E6122E9B188002BAC65 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E4F22E9B188002BAC65 /* IQUIView+Hierarchy.m */; };
+		657F0E6222E9B188002BAC65 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E5322E9B188002BAC65 /* IQUIViewController+Additions.m */; };
+		657F0E6322E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E5522E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m */; };
+		657F0E7922E9B32B002BAC65 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E7822E9B32B002BAC65 /* LogViewController.m */; };
+		6585672522E04ED5003F4076 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585672422E04ED5003F4076 /* PreviewView.m */; };
+		65DCE46922E1DF3D0039CF65 /* LiveControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DCE46822E1DF3D0039CF65 /* LiveControlView.m */; };
+		65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E042FD22CEEEC300B8414E /* libc++.tbd */; };
+		65EE3DE022F28FEB004DBDF2 /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B766022CE238E0087534B /* TXLiteAVSDK_TRTC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		652D530B22CC856F007451FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652D52E422CC856B007451FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 652D52EB22CC856B007451FA;
+			remoteInfo = GSLLivePlayer;
+		};
+		652D531622CC856F007451FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652D52E422CC856B007451FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 652D52EB22CC856B007451FA;
+			remoteInfo = GSLLivePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65695C8522F2957000518FDA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65695C8722F2957300518FDA /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		650B766022CE238E0087534B /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TXLiteAVSDK_TRTC.framework; path = GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
+		652D52EC22CC856B007451FA /* GSLLivePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSLLivePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		652D52EF22CC856B007451FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		652D52F022CC856B007451FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		652D52F522CC856B007451FA /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		652D52F622CC856B007451FA /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		652D52F822CC856B007451FA /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		652D52F922CC856B007451FA /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		652D52FC22CC856B007451FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		652D52FE22CC856F007451FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		652D530122CC856F007451FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		652D530322CC856F007451FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652D530422CC856F007451FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		652D530A22CC856F007451FA /* GSLLivePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSLLivePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652D530E22CC856F007451FA /* GSLLivePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSLLivePlayerTests.m; sourceTree = "<group>"; };
+		652D531022CC856F007451FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652D531522CC856F007451FA /* GSLLivePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSLLivePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		652D531922CC856F007451FA /* GSLLivePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSLLivePlayerUITests.m; sourceTree = "<group>"; };
+		652D531B22CC856F007451FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6539538822FBF24D0029FEAC /* paramsConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = paramsConfiguration.json; sourceTree = "<group>"; };
+		6566EF2922DDA8EF00261CF3 /* LiveRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveRoomViewController.h; sourceTree = "<group>"; };
+		6566EF2A22DDA8EF00261CF3 /* LiveRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViewController.m; sourceTree = "<group>"; };
+		657431E322F1975A00D12531 /* GSLLivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSLLivePlayerFramework.framework; path = GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework; sourceTree = "<group>"; };
+		657431E722F199F900D12531 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		657F0E3022E9AC82002BAC65 /* SettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingManager.h; sourceTree = "<group>"; };
+		657F0E3122E9AC82002BAC65 /* SettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingManager.m; sourceTree = "<group>"; };
+		657F0E3522E9B188002BAC65 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		657F0E3622E9B188002BAC65 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		657F0E3822E9B188002BAC65 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		657F0E3922E9B188002BAC65 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		657F0E3A22E9B188002BAC65 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		657F0E3B22E9B188002BAC65 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		657F0E3C22E9B188002BAC65 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		657F0E3D22E9B188002BAC65 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		657F0E3E22E9B188002BAC65 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		657F0E3F22E9B188002BAC65 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		657F0E4022E9B188002BAC65 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		657F0E4122E9B188002BAC65 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		657F0E4322E9B188002BAC65 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		657F0E4422E9B188002BAC65 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		657F0E4622E9B188002BAC65 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		657F0E4722E9B188002BAC65 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		657F0E4822E9B188002BAC65 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		657F0E4922E9B188002BAC65 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		657F0E4B22E9B188002BAC65 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		657F0E4C22E9B188002BAC65 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		657F0E4D22E9B188002BAC65 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		657F0E4E22E9B188002BAC65 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		657F0E4F22E9B188002BAC65 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		657F0E5022E9B188002BAC65 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		657F0E5122E9B188002BAC65 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		657F0E5222E9B188002BAC65 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		657F0E5322E9B188002BAC65 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		657F0E5422E9B188002BAC65 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		657F0E5522E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		657F0E7722E9B32B002BAC65 /* LogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		657F0E7822E9B32B002BAC65 /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		6585672322E04ED5003F4076 /* PreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
+		6585672422E04ED5003F4076 /* PreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
+		65DCE46722E1DF3D0039CF65 /* LiveControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveControlView.h; sourceTree = "<group>"; };
+		65DCE46822E1DF3D0039CF65 /* LiveControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveControlView.m; sourceTree = "<group>"; };
+		65E042FD22CEEEC300B8414E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		65EE3DE222F2915E004DBDF2 /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSLSignalingCenterFramework.framework; path = GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652D52E922CC856B007451FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE3DE022F28FEB004DBDF2 /* TXLiteAVSDK_TRTC.framework in Frameworks */,
+				6555DFC422FD4AFB00A7DEE6 /* GSLLivePlayerFramework.framework in Frameworks */,
+				657431E822F199F900D12531 /* UIKit.framework in Frameworks */,
+				65695C8622F2957300518FDA /* GSLSignalingCenterFramework.framework in Frameworks */,
+				65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652D530722CC856F007451FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652D531222CC856F007451FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650B765F22CE238D0087534B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				657431E722F199F900D12531 /* UIKit.framework */,
+				65EE3DE222F2915E004DBDF2 /* GSLSignalingCenterFramework.framework */,
+				657431E322F1975A00D12531 /* GSLLivePlayerFramework.framework */,
+				65E042FD22CEEEC300B8414E /* libc++.tbd */,
+				650B766022CE238E0087534B /* TXLiteAVSDK_TRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		652D52E322CC856B007451FA = {
+			isa = PBXGroup;
+			children = (
+				652D52EE22CC856B007451FA /* GSLLivePlayer */,
+				652D530D22CC856F007451FA /* GSLLivePlayerTests */,
+				652D531822CC856F007451FA /* GSLLivePlayerUITests */,
+				652D52ED22CC856B007451FA /* Products */,
+				650B765F22CE238D0087534B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		652D52ED22CC856B007451FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652D52EC22CC856B007451FA /* GSLLivePlayer.app */,
+				652D530A22CC856F007451FA /* GSLLivePlayerTests.xctest */,
+				652D531522CC856F007451FA /* GSLLivePlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652D52EE22CC856B007451FA /* GSLLivePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				652D532722CC85A7007451FA /* GSLLivePlayerDemo */,
+			);
+			path = GSLLivePlayer;
+			sourceTree = "<group>";
+		};
+		652D530D22CC856F007451FA /* GSLLivePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				652D530E22CC856F007451FA /* GSLLivePlayerTests.m */,
+				652D531022CC856F007451FA /* Info.plist */,
+			);
+			path = GSLLivePlayerTests;
+			sourceTree = "<group>";
+		};
+		652D531822CC856F007451FA /* GSLLivePlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				652D531922CC856F007451FA /* GSLLivePlayerUITests.m */,
+				652D531B22CC856F007451FA /* Info.plist */,
+			);
+			path = GSLLivePlayerUITests;
+			sourceTree = "<group>";
+		};
+		652D532722CC85A7007451FA /* GSLLivePlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				657F0E3322E9B188002BAC65 /* IQKeyboardManager */,
+				652D52EF22CC856B007451FA /* AppDelegate.h */,
+				652D52F022CC856B007451FA /* AppDelegate.m */,
+				652D52F522CC856B007451FA /* DemoViewController.h */,
+				652D52F622CC856B007451FA /* DemoViewController.m */,
+				652D52F822CC856B007451FA /* SettingViewController.h */,
+				652D52F922CC856B007451FA /* SettingViewController.m */,
+				657F0E3022E9AC82002BAC65 /* SettingManager.h */,
+				657F0E3122E9AC82002BAC65 /* SettingManager.m */,
+				657F0E7722E9B32B002BAC65 /* LogViewController.h */,
+				657F0E7822E9B32B002BAC65 /* LogViewController.m */,
+				6566EF2922DDA8EF00261CF3 /* LiveRoomViewController.h */,
+				6566EF2A22DDA8EF00261CF3 /* LiveRoomViewController.m */,
+				65DCE46722E1DF3D0039CF65 /* LiveControlView.h */,
+				65DCE46822E1DF3D0039CF65 /* LiveControlView.m */,
+				6585672322E04ED5003F4076 /* PreviewView.h */,
+				6585672422E04ED5003F4076 /* PreviewView.m */,
+				6539538822FBF24D0029FEAC /* paramsConfiguration.json */,
+				652D52FB22CC856B007451FA /* Main.storyboard */,
+				652D52FE22CC856F007451FA /* Assets.xcassets */,
+				652D530022CC856F007451FA /* LaunchScreen.storyboard */,
+				652D530322CC856F007451FA /* Info.plist */,
+				652D530422CC856F007451FA /* main.m */,
+			);
+			path = GSLLivePlayerDemo;
+			sourceTree = "<group>";
+		};
+		657F0E3322E9B188002BAC65 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				657F0E3422E9B188002BAC65 /* IQTextView */,
+				657F0E3722E9B188002BAC65 /* IQToolbar */,
+				657F0E4222E9B188002BAC65 /* Constants */,
+				657F0E4522E9B188002BAC65 /* Resources */,
+				657F0E4722E9B188002BAC65 /* IQKeyboardReturnKeyHandler.h */,
+				657F0E4822E9B188002BAC65 /* IQKeyboardManager.h */,
+				657F0E4922E9B188002BAC65 /* IQKeyboardManager.m */,
+				657F0E4A22E9B188002BAC65 /* Categories */,
+				657F0E5522E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		657F0E3422E9B188002BAC65 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				657F0E3522E9B188002BAC65 /* IQTextView.m */,
+				657F0E3622E9B188002BAC65 /* IQTextView.h */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		657F0E3722E9B188002BAC65 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				657F0E3822E9B188002BAC65 /* IQUIView+IQKeyboardToolbar.h */,
+				657F0E3922E9B188002BAC65 /* IQToolbar.m */,
+				657F0E3A22E9B188002BAC65 /* IQPreviousNextView.h */,
+				657F0E3B22E9B188002BAC65 /* IQTitleBarButtonItem.m */,
+				657F0E3C22E9B188002BAC65 /* IQBarButtonItem.m */,
+				657F0E3D22E9B188002BAC65 /* IQUIView+IQKeyboardToolbar.m */,
+				657F0E3E22E9B188002BAC65 /* IQPreviousNextView.m */,
+				657F0E3F22E9B188002BAC65 /* IQToolbar.h */,
+				657F0E4022E9B188002BAC65 /* IQBarButtonItem.h */,
+				657F0E4122E9B188002BAC65 /* IQTitleBarButtonItem.h */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		657F0E4222E9B188002BAC65 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				657F0E4322E9B188002BAC65 /* IQKeyboardManagerConstantsInternal.h */,
+				657F0E4422E9B188002BAC65 /* IQKeyboardManagerConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		657F0E4522E9B188002BAC65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				657F0E4622E9B188002BAC65 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		657F0E4A22E9B188002BAC65 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				657F0E4B22E9B188002BAC65 /* IQNSArray+Sort.m */,
+				657F0E4C22E9B188002BAC65 /* IQUIViewController+Additions.h */,
+				657F0E4D22E9B188002BAC65 /* IQUITextFieldView+Additions.m */,
+				657F0E4E22E9B188002BAC65 /* IQUIScrollView+Additions.m */,
+				657F0E4F22E9B188002BAC65 /* IQUIView+Hierarchy.m */,
+				657F0E5022E9B188002BAC65 /* IQNSArray+Sort.h */,
+				657F0E5122E9B188002BAC65 /* IQUIScrollView+Additions.h */,
+				657F0E5222E9B188002BAC65 /* IQUITextFieldView+Additions.h */,
+				657F0E5322E9B188002BAC65 /* IQUIViewController+Additions.m */,
+				657F0E5422E9B188002BAC65 /* IQUIView+Hierarchy.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652D52EB22CC856B007451FA /* GSLLivePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652D531E22CC856F007451FA /* Build configuration list for PBXNativeTarget "GSLLivePlayer" */;
+			buildPhases = (
+				652D52E822CC856B007451FA /* Sources */,
+				652D52E922CC856B007451FA /* Frameworks */,
+				652D52EA22CC856B007451FA /* Resources */,
+				65695C8522F2957000518FDA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSLLivePlayer;
+			productName = GSLLivePlayer;
+			productReference = 652D52EC22CC856B007451FA /* GSLLivePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		652D530922CC856F007451FA /* GSLLivePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652D532122CC856F007451FA /* Build configuration list for PBXNativeTarget "GSLLivePlayerTests" */;
+			buildPhases = (
+				652D530622CC856F007451FA /* Sources */,
+				652D530722CC856F007451FA /* Frameworks */,
+				652D530822CC856F007451FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652D530C22CC856F007451FA /* PBXTargetDependency */,
+			);
+			name = GSLLivePlayerTests;
+			productName = GSLLivePlayerTests;
+			productReference = 652D530A22CC856F007451FA /* GSLLivePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		652D531422CC856F007451FA /* GSLLivePlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652D532422CC856F007451FA /* Build configuration list for PBXNativeTarget "GSLLivePlayerUITests" */;
+			buildPhases = (
+				652D531122CC856F007451FA /* Sources */,
+				652D531222CC856F007451FA /* Frameworks */,
+				652D531322CC856F007451FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652D531722CC856F007451FA /* PBXTargetDependency */,
+			);
+			name = GSLLivePlayerUITests;
+			productName = GSLLivePlayerUITests;
+			productReference = 652D531522CC856F007451FA /* GSLLivePlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652D52E422CC856B007451FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = wangtong;
+				TargetAttributes = {
+					652D52EB22CC856B007451FA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					652D530922CC856F007451FA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 652D52EB22CC856B007451FA;
+					};
+					652D531422CC856F007451FA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 652D52EB22CC856B007451FA;
+					};
+				};
+			};
+			buildConfigurationList = 652D52E722CC856B007451FA /* Build configuration list for PBXProject "GSLLivePlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 652D52E322CC856B007451FA;
+			productRefGroup = 652D52ED22CC856B007451FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652D52EB22CC856B007451FA /* GSLLivePlayer */,
+				652D530922CC856F007451FA /* GSLLivePlayerTests */,
+				652D531422CC856F007451FA /* GSLLivePlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652D52EA22CC856B007451FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652D530222CC856F007451FA /* LaunchScreen.storyboard in Resources */,
+				652D52FF22CC856F007451FA /* Assets.xcassets in Resources */,
+				657F0E5C22E9B188002BAC65 /* IQKeyboardManager.bundle in Resources */,
+				6539538922FBF24E0029FEAC /* paramsConfiguration.json in Resources */,
+				652D52FD22CC856B007451FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652D530822CC856F007451FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652D531322CC856F007451FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652D52E822CC856B007451FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657F0E5922E9B188002BAC65 /* IQBarButtonItem.m in Sources */,
+				657F0E6022E9B188002BAC65 /* IQUIScrollView+Additions.m in Sources */,
+				657F0E6322E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				657F0E6222E9B188002BAC65 /* IQUIViewController+Additions.m in Sources */,
+				6585672522E04ED5003F4076 /* PreviewView.m in Sources */,
+				6566EF2B22DDA8EF00261CF3 /* LiveRoomViewController.m in Sources */,
+				657F0E5B22E9B188002BAC65 /* IQPreviousNextView.m in Sources */,
+				657F0E3222E9AC82002BAC65 /* SettingManager.m in Sources */,
+				657F0E5622E9B188002BAC65 /* IQTextView.m in Sources */,
+				652D530522CC856F007451FA /* main.m in Sources */,
+				652D52FA22CC856B007451FA /* SettingViewController.m in Sources */,
+				652D52F122CC856B007451FA /* AppDelegate.m in Sources */,
+				657F0E5F22E9B188002BAC65 /* IQUITextFieldView+Additions.m in Sources */,
+				657F0E5E22E9B188002BAC65 /* IQNSArray+Sort.m in Sources */,
+				657F0E5722E9B188002BAC65 /* IQToolbar.m in Sources */,
+				652D52F722CC856B007451FA /* DemoViewController.m in Sources */,
+				657F0E6122E9B188002BAC65 /* IQUIView+Hierarchy.m in Sources */,
+				65DCE46922E1DF3D0039CF65 /* LiveControlView.m in Sources */,
+				657F0E5822E9B188002BAC65 /* IQTitleBarButtonItem.m in Sources */,
+				657F0E5D22E9B188002BAC65 /* IQKeyboardManager.m in Sources */,
+				657F0E5A22E9B188002BAC65 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				657F0E7922E9B32B002BAC65 /* LogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652D530622CC856F007451FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652D530F22CC856F007451FA /* GSLLivePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652D531122CC856F007451FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652D531A22CC856F007451FA /* GSLLivePlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		652D530C22CC856F007451FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 652D52EB22CC856B007451FA /* GSLLivePlayer */;
+			targetProxy = 652D530B22CC856F007451FA /* PBXContainerItemProxy */;
+		};
+		652D531722CC856F007451FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 652D52EB22CC856B007451FA /* GSLLivePlayer */;
+			targetProxy = 652D531622CC856F007451FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		652D52FB22CC856B007451FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652D52FC22CC856B007451FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		652D530022CC856F007451FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652D530122CC856F007451FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652D531C22CC856F007451FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		652D531D22CC856F007451FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		652D531F22CC856F007451FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87JKJ3JM87;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GSLLivePlayer/GSLLivePlayerDemo",
+				);
+				INFOPLIST_FILE = GSLLivePlayer/GSLLivePlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		652D532022CC856F007451FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87JKJ3JM87;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GSLLivePlayer/GSLLivePlayerDemo",
+				);
+				INFOPLIST_FILE = GSLLivePlayer/GSLLivePlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		652D532222CC856F007451FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSLLivePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSLLivePlayer.app/GSLLivePlayer";
+			};
+			name = Debug;
+		};
+		652D532322CC856F007451FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSLLivePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSLLivePlayer.app/GSLLivePlayer";
+			};
+			name = Release;
+		};
+		652D532522CC856F007451FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSLLivePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSLLivePlayer;
+			};
+			name = Debug;
+		};
+		652D532622CC856F007451FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSLLivePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSLLivePlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652D52E722CC856B007451FA /* Build configuration list for PBXProject "GSLLivePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652D531C22CC856F007451FA /* Debug */,
+				652D531D22CC856F007451FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652D531E22CC856F007451FA /* Build configuration list for PBXNativeTarget "GSLLivePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652D531F22CC856F007451FA /* Debug */,
+				652D532022CC856F007451FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652D532122CC856F007451FA /* Build configuration list for PBXNativeTarget "GSLLivePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652D532222CC856F007451FA /* Debug */,
+				652D532322CC856F007451FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652D532422CC856F007451FA /* Build configuration list for PBXNativeTarget "GSLLivePlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652D532522CC856F007451FA /* Debug */,
+				652D532622CC856F007451FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 652D52E422CC856B007451FA /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module GSLLivePlayerFramework {
+  umbrella header "GSLLivePlayerFramework.h"
+
+  export *
+  module * { export * }
+}
