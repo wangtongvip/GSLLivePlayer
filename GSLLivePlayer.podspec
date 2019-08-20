@@ -122,7 +122,7 @@ Pod::Spec.new do |spec|
 
   spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework"
   spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework"
-  spec.library   = "libc++"
+  spec.library   = "c++"
   # spec.libraries = "iconv", "xml2"
 
 
