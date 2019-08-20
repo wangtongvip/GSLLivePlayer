@@ -120,8 +120,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework"
-  spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework"
+  spec.vendored_frameworks = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework", "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework"
   spec.library   = "c++"
   # spec.libraries = "iconv", "xml2"
 
@@ -135,6 +134,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  # spec.dependency "GSLSignalingCenter", "~> 1.1.1"
 
 end
