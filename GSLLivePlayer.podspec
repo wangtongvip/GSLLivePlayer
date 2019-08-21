@@ -117,14 +117,14 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework"
   spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework"
   # spec.vendored_frameworks = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework", "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework"
-  spec.library   = "c++"
-  # spec.libraries = "iconv", "xml2"
+  # spec.library   = "c++"
+  spec.libraries = "c++", "resolv"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
