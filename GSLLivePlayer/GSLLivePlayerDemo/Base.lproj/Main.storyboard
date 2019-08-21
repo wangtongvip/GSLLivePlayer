@@ -178,7 +178,7 @@
                         <rightBarButtonItems>
                             <barButtonItem title="日志" id="deO-Kr-pgl">
                                 <connections>
-                                    <segue destination="pdN-dZ-NKZ" kind="push" id="kqp-E5-3zt"/>
+                                    <segue destination="pdN-dZ-NKZ" kind="show" id="kqp-E5-3zt"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="选择参数" id="7m6-l4-Afq">
