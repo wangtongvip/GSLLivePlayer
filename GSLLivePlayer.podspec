@@ -121,8 +121,8 @@ Pod::Spec.new do |spec|
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework"
-  spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework"
-  # spec.vendored_frameworks = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework", "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework"
+  spec.vendored_framework = "GSLSignalingCenterFramework.framework"
+  # spec.vendored_frameworks = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework", "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework", "GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework"
   # spec.library   = "c++"
   spec.libraries = "c++", "resolv"
 

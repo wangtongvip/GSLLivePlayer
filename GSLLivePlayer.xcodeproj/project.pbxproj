@@ -36,11 +36,11 @@
 		657F0E6322E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E5522E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m */; };
 		657F0E7922E9B32B002BAC65 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E7822E9B32B002BAC65 /* LogViewController.m */; };
 		6585672522E04ED5003F4076 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585672422E04ED5003F4076 /* PreviewView.m */; };
-		65D5A637230D0E270097DD5F /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657431E322F1975A00D12531 /* GSLLivePlayerFramework.framework */; };
-		65D5A63A230D0E290097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE3DE222F2915E004DBDF2 /* GSLSignalingCenterFramework.framework */; };
+		65D5A64A230D1E740097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A647230D1E730097DD5F /* TXLiteAVSDK_TRTC.framework */; };
+		65D5A64B230D1E740097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A648230D1E740097DD5F /* GSLSignalingCenterFramework.framework */; };
+		65D5A64C230D1E740097DD5F /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A649230D1E740097DD5F /* GSLLivePlayerFramework.framework */; };
 		65DCE46922E1DF3D0039CF65 /* LiveControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DCE46822E1DF3D0039CF65 /* LiveControlView.m */; };
 		65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E042FD22CEEEC300B8414E /* libc++.tbd */; };
-		65EE3DE022F28FEB004DBDF2 /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B766022CE238E0087534B /* TXLiteAVSDK_TRTC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		650B766022CE238E0087534B /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TXLiteAVSDK_TRTC.framework; path = GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
 		652D52EC22CC856B007451FA /* GSLLivePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSLLivePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652D52EF22CC856B007451FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		652D52F022CC856B007451FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,7 +82,6 @@
 		6539538822FBF24D0029FEAC /* paramsConfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = paramsConfiguration.json; sourceTree = "<group>"; };
 		6566EF2922DDA8EF00261CF3 /* LiveRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveRoomViewController.h; sourceTree = "<group>"; };
 		6566EF2A22DDA8EF00261CF3 /* LiveRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViewController.m; sourceTree = "<group>"; };
-		657431E322F1975A00D12531 /* GSLLivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSLLivePlayerFramework.framework; path = GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework; sourceTree = "<group>"; };
 		657431E722F199F900D12531 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		657F0E3022E9AC82002BAC65 /* SettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingManager.h; sourceTree = "<group>"; };
 		657F0E3122E9AC82002BAC65 /* SettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingManager.m; sourceTree = "<group>"; };
@@ -120,10 +118,12 @@
 		657F0E7822E9B32B002BAC65 /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 		6585672322E04ED5003F4076 /* PreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
 		6585672422E04ED5003F4076 /* PreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
+		65D5A647230D1E730097DD5F /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
+		65D5A648230D1E740097DD5F /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
+		65D5A649230D1E740097DD5F /* GSLLivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLLivePlayerFramework.framework; sourceTree = "<group>"; };
 		65DCE46722E1DF3D0039CF65 /* LiveControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveControlView.h; sourceTree = "<group>"; };
 		65DCE46822E1DF3D0039CF65 /* LiveControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveControlView.m; sourceTree = "<group>"; };
 		65E042FD22CEEEC300B8414E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		65EE3DE222F2915E004DBDF2 /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSLSignalingCenterFramework.framework; path = GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65EE3DE022F28FEB004DBDF2 /* TXLiteAVSDK_TRTC.framework in Frameworks */,
-				65D5A637230D0E270097DD5F /* GSLLivePlayerFramework.framework in Frameworks */,
+				65D5A64A230D1E740097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */,
+				65D5A64B230D1E740097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */,
+				65D5A64C230D1E740097DD5F /* GSLLivePlayerFramework.framework in Frameworks */,
 				657431E822F199F900D12531 /* UIKit.framework in Frameworks */,
-				65D5A63A230D0E290097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */,
 				65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,11 +159,11 @@
 		650B765F22CE238D0087534B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65D5A649230D1E740097DD5F /* GSLLivePlayerFramework.framework */,
+				65D5A648230D1E740097DD5F /* GSLSignalingCenterFramework.framework */,
+				65D5A647230D1E730097DD5F /* TXLiteAVSDK_TRTC.framework */,
 				657431E722F199F900D12531 /* UIKit.framework */,
-				65EE3DE222F2915E004DBDF2 /* GSLSignalingCenterFramework.framework */,
-				657431E322F1975A00D12531 /* GSLLivePlayerFramework.framework */,
 				65E042FD22CEEEC300B8414E /* libc++.tbd */,
-				650B766022CE238E0087534B /* TXLiteAVSDK_TRTC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -650,6 +650,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSLLivePlayer/GSLLivePlayerDemo",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GSLLivePlayer/GSLLivePlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -678,6 +679,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSLLivePlayer/GSLLivePlayerDemo",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GSLLivePlayer/GSLLivePlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
