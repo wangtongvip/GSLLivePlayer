@@ -36,9 +36,10 @@
 		657F0E6322E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E5522E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m */; };
 		657F0E7922E9B32B002BAC65 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E7822E9B32B002BAC65 /* LogViewController.m */; };
 		6585672522E04ED5003F4076 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585672422E04ED5003F4076 /* PreviewView.m */; };
-		65D5A64A230D1E740097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A647230D1E730097DD5F /* TXLiteAVSDK_TRTC.framework */; };
-		65D5A64B230D1E740097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A648230D1E740097DD5F /* GSLSignalingCenterFramework.framework */; };
-		65D5A64C230D1E740097DD5F /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A649230D1E740097DD5F /* GSLLivePlayerFramework.framework */; };
+		65D5A65A230D349D0097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A657230D349C0097DD5F /* TXLiteAVSDK_TRTC.framework */; };
+		65D5A65B230D349D0097DD5F /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A658230D349D0097DD5F /* GSLLivePlayerFramework.framework */; };
+		65D5A65D230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; };
+		65D5A65E230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65DCE46922E1DF3D0039CF65 /* LiveControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DCE46822E1DF3D0039CF65 /* LiveControlView.m */; };
 		65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E042FD22CEEEC300B8414E /* libc++.tbd */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,20 @@
 			remoteInfo = GSLLivePlayer;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65695C8522F2957000518FDA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65D5A65E230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		652D52EC22CC856B007451FA /* GSLLivePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSLLivePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,9 +133,9 @@
 		657F0E7822E9B32B002BAC65 /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 		6585672322E04ED5003F4076 /* PreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
 		6585672422E04ED5003F4076 /* PreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
-		65D5A647230D1E730097DD5F /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
-		65D5A648230D1E740097DD5F /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
-		65D5A649230D1E740097DD5F /* GSLLivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLLivePlayerFramework.framework; sourceTree = "<group>"; };
+		65D5A657230D349C0097DD5F /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
+		65D5A658230D349D0097DD5F /* GSLLivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLLivePlayerFramework.framework; sourceTree = "<group>"; };
+		65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
 		65DCE46722E1DF3D0039CF65 /* LiveControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveControlView.h; sourceTree = "<group>"; };
 		65DCE46822E1DF3D0039CF65 /* LiveControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveControlView.m; sourceTree = "<group>"; };
 		65E042FD22CEEEC300B8414E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -131,10 +146,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D5A64A230D1E740097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */,
-				65D5A64B230D1E740097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */,
-				65D5A64C230D1E740097DD5F /* GSLLivePlayerFramework.framework in Frameworks */,
+				65D5A65A230D349D0097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */,
+				65D5A65B230D349D0097DD5F /* GSLLivePlayerFramework.framework in Frameworks */,
 				657431E822F199F900D12531 /* UIKit.framework in Frameworks */,
+				65D5A65D230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */,
 				65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,9 +174,9 @@
 		650B765F22CE238D0087534B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65D5A649230D1E740097DD5F /* GSLLivePlayerFramework.framework */,
-				65D5A648230D1E740097DD5F /* GSLSignalingCenterFramework.framework */,
-				65D5A647230D1E730097DD5F /* TXLiteAVSDK_TRTC.framework */,
+				65D5A658230D349D0097DD5F /* GSLLivePlayerFramework.framework */,
+				65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */,
+				65D5A657230D349C0097DD5F /* TXLiteAVSDK_TRTC.framework */,
 				657431E722F199F900D12531 /* UIKit.framework */,
 				65E042FD22CEEEC300B8414E /* libc++.tbd */,
 			);
@@ -331,6 +346,7 @@
 				652D52E822CC856B007451FA /* Sources */,
 				652D52E922CC856B007451FA /* Frameworks */,
 				652D52EA22CC856B007451FA /* Resources */,
+				65695C8522F2957000518FDA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -664,7 +680,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -693,7 +708,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
