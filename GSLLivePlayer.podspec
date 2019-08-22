@@ -92,10 +92,13 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "GSLLivePlayer/GSLLivePlayerDemo/LiveRoomViewController.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/LiveControlView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/PreviewView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/SettingManager.{h,m}"
-  spec.source_files  = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFrameworks.{h,m}"
+  # spec.source_files  = "GSLLivePlayerFramework.framework/Headers/*.{h,m}", "GSLSignalingCenterFramework.framework/Headers/*.{h,m}", "TXLiteAVSDK_TRTC.framework/Headers/*.{h,m}"
+  spec.source_files  = "GSLLivePlayerFramework.framework/Headers/*.h", "TXLiteAVSDK_TRTC.framework/Headers/*.h", "GSLLivePlayer/GSLLivePlayerDemo/LiveRoomViewController.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/LiveControlView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/PreviewView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/SettingManager.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "GSLLivePlayerFramework.framework/Headers/*.h"
+
+  # spec.prefix_header_contents = "#import <GSLLivePlayerFramework/GSLLivePlayerFramework.h>", "#import <GSLSignalingCenterFramework/GSLSignalingCenterFramework.h>"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -109,7 +112,7 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  spec.preserve_paths = "GSLLivePlayerFramework.framework", "TXLiteAVSDK_TRTC.framework"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -124,7 +127,7 @@ Pod::Spec.new do |spec|
   # spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework"
   # spec.vendored_framework = "GSLSignalingCenterFramework.framework"
   # spec.vendored_library = "GSLSignalingCenterFramework.framework"
-  spec.vendored_frameworks = "GSLLivePlayerFramework.framework", "TXLiteAVSDK_TRTC.framework", "GSLSignalingCenterFramework.framework"
+  spec.vendored_frameworks = "GSLLivePlayerFramework.framework", "TXLiteAVSDK_TRTC.framework"
   # spec.library   = "c++"
   spec.libraries = "c++", "resolv"
 
@@ -139,7 +142,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.xcconfig = { "VALID_ARCHS" =>  "arm64 armv7 armv7s x86_64", }
-  # spec.dependency "GSLSignalingCenter", "~> 1.1.1"
+  spec.dependency "GSLSignalingCenter", "~> 1.1.1"
   # spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64 i386' }
 
 end

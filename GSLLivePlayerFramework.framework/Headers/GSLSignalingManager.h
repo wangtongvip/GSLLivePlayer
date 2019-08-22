@@ -15,10 +15,13 @@
 #if __has_include(<GSLSignalingCenterFramework/GSLSignalingCenter.h>)
 #import <GSLSignalingCenterFramework/GSLSignalingCenter.h>
 #import <GSLSignalingCenterFramework/GSLSignalingCenterDelegate.h>
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GSLSignalingManager : GSLLPObject<GSLSignalingProtocal>
+
+#if __has_include(<GSLSignalingCenterFramework/GSLSignalingCenter.h>)
 
 // 请使用 +initWithAppId:token: 方法
 + (instancetype)new  __attribute__((unavailable("Use -initWithAppId:roomId:userId:token: instead")));
@@ -32,8 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
                         token:(NSString *)token
                         error:(NSError **)error;
 
+#endif
+
 @end
 
 NS_ASSUME_NONNULL_END
-
-#endif
