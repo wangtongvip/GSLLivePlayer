@@ -91,7 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.source_files  = "GSLLivePlayer/GSLLivePlayerDemo/LiveRoomViewController.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/LiveControlView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/PreviewView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/SettingManager.{h,m}"
+  spec.source_files  = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFrameworks.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -121,8 +122,9 @@ Pod::Spec.new do |spec|
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.vendored_framework = "GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework"
-  spec.vendored_framework = "GSLSignalingCenterFramework.framework"
-  # spec.vendored_frameworks = "GSLLivePlayer/GSLLivePlayerDemo/GSLLivePlayerFramework.framework", "GSLLivePlayer/GSLLivePlayerDemo/TXLiteAVSDK_TRTC.framework", "GSLLivePlayer/GSLLivePlayerDemo/GSLSignalingCenterFramework.framework"
+  # spec.vendored_framework = "GSLSignalingCenterFramework.framework"
+  # spec.vendored_library = "GSLSignalingCenterFramework.framework"
+  spec.vendored_frameworks = "GSLLivePlayerFramework.framework", "TXLiteAVSDK_TRTC.framework", "GSLSignalingCenterFramework.framework"
   # spec.library   = "c++"
   spec.libraries = "c++", "resolv"
 
