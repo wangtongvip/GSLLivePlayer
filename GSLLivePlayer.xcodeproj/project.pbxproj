@@ -19,7 +19,8 @@
 		6539538922FBF24E0029FEAC /* paramsConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6539538822FBF24D0029FEAC /* paramsConfiguration.json */; };
 		6566EF2B22DDA8EF00261CF3 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6566EF2A22DDA8EF00261CF3 /* LiveRoomViewController.m */; };
 		657431E822F199F900D12531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657431E722F199F900D12531 /* UIKit.framework */; };
-		65745316230E3F5100A0C00A /* GSLLivePlayerFrameworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 65745315230E3F5100A0C00A /* GSLLivePlayerFrameworks.m */; };
+		65745317230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; };
+		65745318230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		657F0E3222E9AC82002BAC65 /* SettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3122E9AC82002BAC65 /* SettingManager.m */; };
 		657F0E5622E9B188002BAC65 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3522E9B188002BAC65 /* IQTextView.m */; };
 		657F0E5722E9B188002BAC65 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3922E9B188002BAC65 /* IQToolbar.m */; };
@@ -39,8 +40,6 @@
 		6585672522E04ED5003F4076 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585672422E04ED5003F4076 /* PreviewView.m */; };
 		65D5A65A230D349D0097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A657230D349C0097DD5F /* TXLiteAVSDK_TRTC.framework */; };
 		65D5A65B230D349D0097DD5F /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A658230D349D0097DD5F /* GSLLivePlayerFramework.framework */; };
-		65D5A65D230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; };
-		65D5A65E230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65DCE46922E1DF3D0039CF65 /* LiveControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DCE46822E1DF3D0039CF65 /* LiveControlView.m */; };
 		65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E042FD22CEEEC300B8414E /* libc++.tbd */; };
 /* End PBXBuildFile section */
@@ -63,13 +62,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		65695C8522F2957000518FDA /* Embed Frameworks */ = {
+		65745319230EAF8600A0C00A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65D5A65E230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+				65745318230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,8 +98,6 @@
 		6566EF2922DDA8EF00261CF3 /* LiveRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveRoomViewController.h; sourceTree = "<group>"; };
 		6566EF2A22DDA8EF00261CF3 /* LiveRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViewController.m; sourceTree = "<group>"; };
 		657431E722F199F900D12531 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		65745314230E3F5100A0C00A /* GSLLivePlayerFrameworks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSLLivePlayerFrameworks.h; sourceTree = "<group>"; };
-		65745315230E3F5100A0C00A /* GSLLivePlayerFrameworks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSLLivePlayerFrameworks.m; sourceTree = "<group>"; };
 		657F0E3022E9AC82002BAC65 /* SettingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingManager.h; sourceTree = "<group>"; };
 		657F0E3122E9AC82002BAC65 /* SettingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingManager.m; sourceTree = "<group>"; };
 		657F0E3522E9B188002BAC65 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
@@ -152,7 +149,7 @@
 				65D5A65A230D349D0097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */,
 				65D5A65B230D349D0097DD5F /* GSLLivePlayerFramework.framework in Frameworks */,
 				657431E822F199F900D12531 /* UIKit.framework in Frameworks */,
-				65D5A65D230D34C60097DD5F /* GSLSignalingCenterFramework.framework in Frameworks */,
+				65745317230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Frameworks */,
 				65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +250,6 @@
 				65DCE46822E1DF3D0039CF65 /* LiveControlView.m */,
 				6585672322E04ED5003F4076 /* PreviewView.h */,
 				6585672422E04ED5003F4076 /* PreviewView.m */,
-				65745314230E3F5100A0C00A /* GSLLivePlayerFrameworks.h */,
-				65745315230E3F5100A0C00A /* GSLLivePlayerFrameworks.m */,
 				6539538822FBF24D0029FEAC /* paramsConfiguration.json */,
 				652D52FB22CC856B007451FA /* Main.storyboard */,
 				652D52FE22CC856F007451FA /* Assets.xcassets */,
@@ -351,7 +346,7 @@
 				652D52E822CC856B007451FA /* Sources */,
 				652D52E922CC856B007451FA /* Frameworks */,
 				652D52EA22CC856B007451FA /* Resources */,
-				65695C8522F2957000518FDA /* Embed Frameworks */,
+				65745319230EAF8600A0C00A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -486,7 +481,6 @@
 				652D530522CC856F007451FA /* main.m in Sources */,
 				652D52FA22CC856B007451FA /* SettingViewController.m in Sources */,
 				652D52F122CC856B007451FA /* AppDelegate.m in Sources */,
-				65745316230E3F5100A0C00A /* GSLLivePlayerFrameworks.m in Sources */,
 				657F0E5F22E9B188002BAC65 /* IQUITextFieldView+Additions.m in Sources */,
 				657F0E5E22E9B188002BAC65 /* IQNSArray+Sort.m in Sources */,
 				657F0E5722E9B188002BAC65 /* IQToolbar.m in Sources */,
