@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6511C0B0230FE22C005FE836 /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AC230FE22C005FE836 /* TXLiteAVSDK_TRTC.framework */; };
+		6511C0B2230FE256005FE836 /* GSLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AD230FE22C005FE836 /* GSLKit.framework */; };
+		6511C0B3230FE256005FE836 /* GSLKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AD230FE22C005FE836 /* GSLKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6511C0B4230FE258005FE836 /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */; };
+		6511C0B5230FE258005FE836 /* GSLLivePlayerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6511C0B6230FE25A005FE836 /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AA230FE22C005FE836 /* GSLSignalingCenterFramework.framework */; };
+		6511C0B7230FE25A005FE836 /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AA230FE22C005FE836 /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		652D52F122CC856B007451FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F022CC856B007451FA /* AppDelegate.m */; };
 		652D52F722CC856B007451FA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F622CC856B007451FA /* DemoViewController.m */; };
 		652D52FA22CC856B007451FA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F922CC856B007451FA /* SettingViewController.m */; };
@@ -19,8 +26,6 @@
 		6539538922FBF24E0029FEAC /* paramsConfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 6539538822FBF24D0029FEAC /* paramsConfiguration.json */; };
 		6566EF2B22DDA8EF00261CF3 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6566EF2A22DDA8EF00261CF3 /* LiveRoomViewController.m */; };
 		657431E822F199F900D12531 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657431E722F199F900D12531 /* UIKit.framework */; };
-		65745317230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; };
-		65745318230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		657F0E3222E9AC82002BAC65 /* SettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3122E9AC82002BAC65 /* SettingManager.m */; };
 		657F0E5622E9B188002BAC65 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3522E9B188002BAC65 /* IQTextView.m */; };
 		657F0E5722E9B188002BAC65 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E3922E9B188002BAC65 /* IQToolbar.m */; };
@@ -38,8 +43,6 @@
 		657F0E6322E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E5522E9B188002BAC65 /* IQKeyboardReturnKeyHandler.m */; };
 		657F0E7922E9B32B002BAC65 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657F0E7822E9B32B002BAC65 /* LogViewController.m */; };
 		6585672522E04ED5003F4076 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585672422E04ED5003F4076 /* PreviewView.m */; };
-		65D5A65A230D349D0097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A657230D349C0097DD5F /* TXLiteAVSDK_TRTC.framework */; };
-		65D5A65B230D349D0097DD5F /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D5A658230D349D0097DD5F /* GSLLivePlayerFramework.framework */; };
 		65DCE46922E1DF3D0039CF65 /* LiveControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DCE46822E1DF3D0039CF65 /* LiveControlView.m */; };
 		65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E042FD22CEEEC300B8414E /* libc++.tbd */; };
 /* End PBXBuildFile section */
@@ -62,13 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		65745319230EAF8600A0C00A /* Embed Frameworks */ = {
+		65695C8522F2957000518FDA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65745318230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+				6511C0B7230FE25A005FE836 /* GSLSignalingCenterFramework.framework in Embed Frameworks */,
+				6511C0B5230FE258005FE836 /* GSLLivePlayerFramework.framework in Embed Frameworks */,
+				6511C0B3230FE256005FE836 /* GSLKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +81,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6511C0AA230FE22C005FE836 /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
+		6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLLivePlayerFramework.framework; sourceTree = "<group>"; };
+		6511C0AC230FE22C005FE836 /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
+		6511C0AD230FE22C005FE836 /* GSLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLKit.framework; sourceTree = "<group>"; };
 		652D52EC22CC856B007451FA /* GSLLivePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSLLivePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		652D52EF22CC856B007451FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		652D52F022CC856B007451FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,9 +142,6 @@
 		657F0E7822E9B32B002BAC65 /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
 		6585672322E04ED5003F4076 /* PreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewView.h; sourceTree = "<group>"; };
 		6585672422E04ED5003F4076 /* PreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewView.m; sourceTree = "<group>"; };
-		65D5A657230D349C0097DD5F /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
-		65D5A658230D349D0097DD5F /* GSLLivePlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLLivePlayerFramework.framework; sourceTree = "<group>"; };
-		65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
 		65DCE46722E1DF3D0039CF65 /* LiveControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveControlView.h; sourceTree = "<group>"; };
 		65DCE46822E1DF3D0039CF65 /* LiveControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveControlView.m; sourceTree = "<group>"; };
 		65E042FD22CEEEC300B8414E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -146,10 +152,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D5A65A230D349D0097DD5F /* TXLiteAVSDK_TRTC.framework in Frameworks */,
-				65D5A65B230D349D0097DD5F /* GSLLivePlayerFramework.framework in Frameworks */,
+				6511C0B6230FE25A005FE836 /* GSLSignalingCenterFramework.framework in Frameworks */,
+				6511C0B2230FE256005FE836 /* GSLKit.framework in Frameworks */,
+				6511C0B4230FE258005FE836 /* GSLLivePlayerFramework.framework in Frameworks */,
+				6511C0B0230FE22C005FE836 /* TXLiteAVSDK_TRTC.framework in Frameworks */,
 				657431E822F199F900D12531 /* UIKit.framework in Frameworks */,
-				65745317230EAF8600A0C00A /* GSLSignalingCenterFramework.framework in Frameworks */,
 				65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,9 +181,10 @@
 		650B765F22CE238D0087534B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65D5A658230D349D0097DD5F /* GSLLivePlayerFramework.framework */,
-				65D5A659230D349D0097DD5F /* GSLSignalingCenterFramework.framework */,
-				65D5A657230D349C0097DD5F /* TXLiteAVSDK_TRTC.framework */,
+				6511C0AD230FE22C005FE836 /* GSLKit.framework */,
+				6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */,
+				6511C0AA230FE22C005FE836 /* GSLSignalingCenterFramework.framework */,
+				6511C0AC230FE22C005FE836 /* TXLiteAVSDK_TRTC.framework */,
 				657431E722F199F900D12531 /* UIKit.framework */,
 				65E042FD22CEEEC300B8414E /* libc++.tbd */,
 			);
@@ -346,7 +354,7 @@
 				652D52E822CC856B007451FA /* Sources */,
 				652D52E922CC856B007451FA /* Frameworks */,
 				652D52EA22CC856B007451FA /* Resources */,
-				65745319230EAF8600A0C00A /* Embed Frameworks */,
+				65695C8522F2957000518FDA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

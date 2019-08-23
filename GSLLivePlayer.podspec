@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GSLLivePlayer"
-  spec.version      = "1.1.1"
+  spec.version      = "0.0.1"
   spec.summary      = "GSL LivePlayer"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                         哥斯拉六路连麦
                    DESC
 
-  spec.homepage     = "https://github.com/wangtongvip/GSLLivePlayer/blob/master/README.md"
+  spec.homepage     = "https://github.com/wangtongvip/GSLLivePlayer"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,12 +91,13 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "GSLLivePlayer/GSLLivePlayerDemo/LiveRoomViewController.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/LiveControlView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/PreviewView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/SettingManager.{h,m}", "GSLLivePlayerFramework.framework/Headers/*.{h,m}", "GSLSignalingCenterFramework.framework/Headers/*.{h,m}", "TXLiteAVSDK_TRTC.framework/Headers/*.{h,m}"
+  # spec.source_files  = "GSLLivePlayer/GSLLivePlayerDemo/LiveRoomViewController.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/LiveControlView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/PreviewView.{h,m}", "GSLLivePlayer/GSLLivePlayerDemo/SettingManager.{h,m}", "GSLLivePlayerFramework.framework/Headers/*.{h,m}", "GSLSignalingCenterFramework.framework/Headers/*.{h,m}", "TXLiteAVSDK_TRTC.framework/Headers/*.{h,m}"
+  spec.source_files  = "GSLLivePlayerFramework.framework/Headers/*.{h,m}", "TXLiteAVSDK_TRTC.framework/Headers/*.{h,m}"
   # spec.source_files  = "GSLLivePlayerFramework.framework/Headers/*.{h,m}", "GSLSignalingCenterFramework.framework/Headers/*.{h,m}", "TXLiteAVSDK_TRTC.framework/Headers/*.{h,m}"
   # spec.source_files  = "GSLLivePlayerFramework.framework/Headers/*.h", "TXLiteAVSDK_TRTC.framework/Headers/*.h"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "GSLLivePlayerFramework.framework/Headers/*.h", "GSLSignalingCenterFramework.framework/Headers/*.h"
+  spec.public_header_files = "GSLLivePlayerFramework.framework/Headers/*.h"
 
   # spec.prefix_header_contents = "#import <GSLLivePlayerFramework/GSLLivePlayerFramework.h>", "#import <GSLSignalingCenterFramework/GSLSignalingCenterFramework.h>"
 
@@ -142,7 +143,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.xcconfig = { "VALID_ARCHS" =>  "arm64 armv7 armv7s x86_64", }
-  # spec.dependency "GSLSignalingCenter", "~> 1.1.1"
+  spec.dependency "GSLKit", "~> 0.0.1"
   # spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64 i386' }
 
 end
