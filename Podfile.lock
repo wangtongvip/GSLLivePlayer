@@ -1,0 +1,25 @@
+PODS:
+  - GSLKit (0.0.1)
+  - GSLSignalingCenter (0.0.1):
+    - GSLKit (~> 0.0.1)
+  - TXLiteAVSDK_TRTC (6.6.7460)
+
+DEPENDENCIES:
+  - GSLKit (~> 0.0.1)
+  - GSLSignalingCenter (~> 0.0.1)
+  - TXLiteAVSDK_TRTC (~> 6.6.7459)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GSLKit
+    - GSLSignalingCenter
+    - TXLiteAVSDK_TRTC
+
+SPEC CHECKSUMS:
+  GSLKit: e81295676c95e8194c90532a536f0409eda19ae2
+  GSLSignalingCenter: 07c5381ca32e9e212479612406282a0c025e7b0a
+  TXLiteAVSDK_TRTC: a5276b2fe58a04d08a03e3755c04e5a53b2ecf92
+
+PODFILE CHECKSUM: 56151fcd4b9b0bdaa6bfa2ff5d7e17c83ba8f7cd
+
+COCOAPODS: 1.7.5

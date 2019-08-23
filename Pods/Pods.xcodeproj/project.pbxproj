@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3C4E208660615890D85AA63F67C5E0E7 /* GSLSignalingCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D8EA7493B4A8FF80AD79E56B55083AAC /* Build configuration list for PBXAggregateTarget "GSLSignalingCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4E29DF1E8D2E28C388924F8E25CE66FF /* PBXTargetDependency */,
+			);
+			name = GSLSignalingCenter;
+		};
+		A1B26620C5E4A14EEBBAD65C893BFEA4 /* GSLKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6A153A8827D29480FAD3B699B727054 /* Build configuration list for PBXAggregateTarget "GSLKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GSLKit;
+		};
+		F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7D49C7C380133C9E789E8652BB431C89 /* Build configuration list for PBXAggregateTarget "TXLiteAVSDK_TRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TXLiteAVSDK_TRTC;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		21660035AEAEBF7231784331122FB6B4 /* Pods-GSLLivePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 078B7FBDC38C751EDB0532A3D939DF81 /* Pods-GSLLivePlayer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52B41C4EDDC9391C39A479D85F5AF0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4E208660615890D85AA63F67C5E0E7;
+			remoteInfo = GSLSignalingCenter;
+		};
+		76FBC61908D267D2024650436B147228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B26620C5E4A14EEBBAD65C893BFEA4;
+			remoteInfo = GSLKit;
+		};
+		881FE920372001362B9A530862894C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7FA33F6627F67543E21479491D5E3DD;
+			remoteInfo = TXLiteAVSDK_TRTC;
+		};
+		88755D78439A1170E3C78DA84069794D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B26620C5E4A14EEBBAD65C893BFEA4;
+			remoteInfo = GSLKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018E288CB8B7F667BA7C4DEEC789979D /* Pods-GSLLivePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSLLivePlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		024DE20744C014A42BF772AA9D369C7E /* GSLSignalingCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLSignalingCenter.h; path = GSLSignalingCenterFramework.framework/Headers/GSLSignalingCenter.h; sourceTree = "<group>"; };
+		06795666CDB85F023E11ECBC7AD449D9 /* Pods-GSLLivePlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSLLivePlayer-frameworks.sh"; sourceTree = "<group>"; };
+		078B7FBDC38C751EDB0532A3D939DF81 /* Pods-GSLLivePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSLLivePlayer-dummy.m"; sourceTree = "<group>"; };
+		0908630AB199E62819AED4E614442F50 /* TXLiteAVCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiteAVCode.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiteAVCode.h; sourceTree = "<group>"; };
+		0B075338ADB1EE0F8540DD0C8C5513E2 /* GSLSignalingCenterDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLSignalingCenterDef.h; path = GSLSignalingCenterFramework.framework/Headers/GSLSignalingCenterDef.h; sourceTree = "<group>"; };
+		0B0AA66960486684DEA7EF4C8DB8433D /* TRTCCloudDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCCloudDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCCloudDelegate.h; sourceTree = "<group>"; };
+		0E91D5F1879D4CEE7C5C91A126483654 /* GSLJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLJSON.h; path = GSLKit.framework/Headers/GSLJSON.h; sourceTree = "<group>"; };
+		18D5B73B5DE73D83FBB61139EEB9B7F0 /* TXLivePlayListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLivePlayListener.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLivePlayListener.h; sourceTree = "<group>"; };
+		1D032983EB9D51170ACFF2A82E5B1DA1 /* GSLSignalingCenterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLSignalingCenterFramework.framework; sourceTree = "<group>"; };
+		2969078855CD8D4CA5440A63FD103458 /* TXLiveRecordListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveRecordListener.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveRecordListener.h; sourceTree = "<group>"; };
+		2FDFCE0B8E1188D133BB0F4A5323B526 /* GSLSignalingCenterFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLSignalingCenterFramework.h; path = GSLSignalingCenterFramework.framework/Headers/GSLSignalingCenterFramework.h; sourceTree = "<group>"; };
+		37FB4BD85A5D4143707F5D1C566C767D /* NSMutableDictionary+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+GSLAddition.h"; path = "GSLKit.framework/Headers/NSMutableDictionary+GSLAddition.h"; sourceTree = "<group>"; };
+		3974AF10D5C84E31050FDD4C917F914C /* TRTCStatistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCStatistics.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCStatistics.h; sourceTree = "<group>"; };
+		39AFC98AB5DB7998FD8B82F23AE3ADCF /* UIDevice+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+GSLAddition.h"; path = "GSLKit.framework/Headers/UIDevice+GSLAddition.h"; sourceTree = "<group>"; };
+		400624D97F2F4092EA1C667B3548A881 /* GSLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GSLKit.framework; sourceTree = "<group>"; };
+		421915F0A98E4305E8C237B0A2879094 /* GSLUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLUtilities.h; path = GSLKit.framework/Headers/GSLUtilities.h; sourceTree = "<group>"; };
+		464E9E22965650E38BA148B11E2AC7DD /* TRTCCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCCloud.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCCloud.h; sourceTree = "<group>"; };
+		4EE7F6197722D63E893416DDF1FFAE2A /* TRTCCloudDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTCCloudDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TRTCCloudDef.h; sourceTree = "<group>"; };
+		51E7BFCCCD1127F733B2A05B5122C1CC /* Pods-GSLLivePlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSLLivePlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53AB2669C047423BC7FE1ED5957E2760 /* NSMutableArray+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+GSLAddition.h"; path = "GSLKit.framework/Headers/NSMutableArray+GSLAddition.h"; sourceTree = "<group>"; };
+		5691152647F08A5937BD8721A5BA4056 /* GSLReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLReachabilityManager.h; path = GSLKit.framework/Headers/GSLReachabilityManager.h; sourceTree = "<group>"; };
+		699EEDF7C029445D5DBF839A83AC1F3D /* TXLiveAudioSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveAudioSessionDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveAudioSessionDelegate.h; sourceTree = "<group>"; };
+		6B60CB90CE2DAE0D4F87986598E8BC8B /* TXAudioCustomProcessDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXAudioCustomProcessDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXAudioCustomProcessDelegate.h; sourceTree = "<group>"; };
+		75AA384A1622CE7AFF1F613882888899 /* TXLiteAVSDK_TRTC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXLiteAVSDK_TRTC.xcconfig; sourceTree = "<group>"; };
+		7A5EA42688EF02AF6BAAC55884914DBC /* NSString+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+GSLAddition.h"; path = "GSLKit.framework/Headers/NSString+GSLAddition.h"; sourceTree = "<group>"; };
+		7EFEEEE24797564B38C88571CC74FAEC /* libPods-GSLLivePlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GSLLivePlayer.a"; path = "libPods-GSLLivePlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8DC25D5B5683F10E2B9AE580AA2C9E /* TXLivePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLivePlayer.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLivePlayer.h; sourceTree = "<group>"; };
+		8EDC17C7EC4CC81974E07008A8FF7293 /* Pods-GSLLivePlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSLLivePlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		93088C0AD8230EB62CD0EB7A1DD3DC27 /* NSData+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GSLAddition.h"; path = "GSLKit.framework/Headers/NSData+GSLAddition.h"; sourceTree = "<group>"; };
+		9A13FFB92F3541BC18842C12991C29E6 /* NSDate+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+GSLAddition.h"; path = "GSLKit.framework/Headers/NSDate+GSLAddition.h"; sourceTree = "<group>"; };
+		9B9A0352854194E1E62F15600DD64E0F /* GSLSignalingCenterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLSignalingCenterDelegate.h; path = GSLSignalingCenterFramework.framework/Headers/GSLSignalingCenterDelegate.h; sourceTree = "<group>"; };
+		9C2BCB9B6E76877B40A93550787427E4 /* Pods-GSLLivePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSLLivePlayer.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E42FB20CF09A24BEAC54A6193511056 /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TXLiteAVSDK_TRTC.framework; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
+		A2193AFD924BF03DD806EA42F4B8AC73 /* NSNull+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+GSLAddition.h"; path = "GSLKit.framework/Headers/NSNull+GSLAddition.h"; sourceTree = "<group>"; };
+		ADB70B3B4DDD86B7BC6C25CB4C56B5F6 /* GSLFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLFileManager.h; path = GSLKit.framework/Headers/GSLFileManager.h; sourceTree = "<group>"; };
+		B8B6902A93A46FFC2E2C3031E5967004 /* UIWindow+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+GSLAddition.h"; path = "GSLKit.framework/Headers/UIWindow+GSLAddition.h"; sourceTree = "<group>"; };
+		BAB7C31DCB071219131A187384712013 /* TXLiveSDKEventDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveSDKEventDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveSDKEventDef.h; sourceTree = "<group>"; };
+		C539099C2D5AD6CEFE010CBE7BC8F805 /* TXVideoCustomProcessDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXVideoCustomProcessDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXVideoCustomProcessDelegate.h; sourceTree = "<group>"; };
+		D67935C2185DC1120CE3828C473F1D75 /* GSLSignalingCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSLSignalingCenter.xcconfig; sourceTree = "<group>"; };
+		D6A855ADB777CD58958ED898C76F9494 /* GSLKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSLKit.xcconfig; sourceTree = "<group>"; };
+		D9527D9C5A7BDD685D41B88289DFD3A3 /* TXLiveSDKTypeDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveSDKTypeDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveSDKTypeDef.h; sourceTree = "<group>"; };
+		D9BABDAB42A213DFDB392AD39D172893 /* TXLiteAVSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiteAVSDK.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiteAVSDK.h; sourceTree = "<group>"; };
+		DB288EE34E356AB2642B3B820DE981BC /* NSArray+GSLAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+GSLAddition.h"; path = "GSLKit.framework/Headers/NSArray+GSLAddition.h"; sourceTree = "<group>"; };
+		E580441ED5B11F51A26ACF791D405E53 /* GSLKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSLKit.h; path = GSLKit.framework/Headers/GSLKit.h; sourceTree = "<group>"; };
+		E83AEFB96A16ECB896B303B60D6B1843 /* TXLiveRecordTypeDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveRecordTypeDef.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveRecordTypeDef.h; sourceTree = "<group>"; };
+		EA1BB2A2851F4D00EF6A08F0675365B2 /* TXLivePlayConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLivePlayConfig.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLivePlayConfig.h; sourceTree = "<group>"; };
+		EB715F8983523155613208FEB8439D65 /* TXAudioRawDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXAudioRawDataDelegate.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXAudioRawDataDelegate.h; sourceTree = "<group>"; };
+		EBC30D86F914DFE44ECD6B3B3804E4D4 /* TXLiveBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXLiveBase.h; path = TXLiteAVSDK_TRTC/TXLiteAVSDK_TRTC.framework/Headers/TXLiveBase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C099BA8CEC9AAF639D25BA4AE30C2CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F6F5E408F5955D79694D0A4437352B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67935C2185DC1120CE3828C473F1D75 /* GSLSignalingCenter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GSLSignalingCenter";
+			sourceTree = "<group>";
+		};
+		42EAD0B157B18F54C98E4D3E36A0432A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E42FB20CF09A24BEAC54A6193511056 /* TXLiteAVSDK_TRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F4CFF8779995138CBD02633A97A468 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8BAE6EEBBAA0610EEE8212DDB8F7DD8 /* GSLKit */,
+				E4DC1B1BDA17E2A445E9439A810FB698 /* GSLSignalingCenter */,
+				756AF2453EB6F9DA889E172110D16F12 /* TXLiteAVSDK_TRTC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D75EBF7B1E187A2CA32978220493971 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6A855ADB777CD58958ED898C76F9494 /* GSLKit.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GSLKit";
+			sourceTree = "<group>";
+		};
+		591DA6274257B8D373DD9444140EB065 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75AA384A1622CE7AFF1F613882888899 /* TXLiteAVSDK_TRTC.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TXLiteAVSDK_TRTC";
+			sourceTree = "<group>";
+		};
+		616FBFD14C4BE7F79FC81A45ED8D2086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				400624D97F2F4092EA1C667B3548A881 /* GSLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756AF2453EB6F9DA889E172110D16F12 /* TXLiteAVSDK_TRTC */ = {
+			isa = PBXGroup;
+			children = (
+				464E9E22965650E38BA148B11E2AC7DD /* TRTCCloud.h */,
+				4EE7F6197722D63E893416DDF1FFAE2A /* TRTCCloudDef.h */,
+				0B0AA66960486684DEA7EF4C8DB8433D /* TRTCCloudDelegate.h */,
+				3974AF10D5C84E31050FDD4C917F914C /* TRTCStatistics.h */,
+				6B60CB90CE2DAE0D4F87986598E8BC8B /* TXAudioCustomProcessDelegate.h */,
+				EB715F8983523155613208FEB8439D65 /* TXAudioRawDataDelegate.h */,
+				0908630AB199E62819AED4E614442F50 /* TXLiteAVCode.h */,
+				D9BABDAB42A213DFDB392AD39D172893 /* TXLiteAVSDK.h */,
+				699EEDF7C029445D5DBF839A83AC1F3D /* TXLiveAudioSessionDelegate.h */,
+				EBC30D86F914DFE44ECD6B3B3804E4D4 /* TXLiveBase.h */,
+				EA1BB2A2851F4D00EF6A08F0675365B2 /* TXLivePlayConfig.h */,
+				7F8DC25D5B5683F10E2B9AE580AA2C9E /* TXLivePlayer.h */,
+				18D5B73B5DE73D83FBB61139EEB9B7F0 /* TXLivePlayListener.h */,
+				2969078855CD8D4CA5440A63FD103458 /* TXLiveRecordListener.h */,
+				E83AEFB96A16ECB896B303B60D6B1843 /* TXLiveRecordTypeDef.h */,
+				BAB7C31DCB071219131A187384712013 /* TXLiveSDKEventDef.h */,
+				D9527D9C5A7BDD685D41B88289DFD3A3 /* TXLiveSDKTypeDef.h */,
+				C539099C2D5AD6CEFE010CBE7BC8F805 /* TXVideoCustomProcessDelegate.h */,
+				42EAD0B157B18F54C98E4D3E36A0432A /* Frameworks */,
+				591DA6274257B8D373DD9444140EB065 /* Support Files */,
+			);
+			name = TXLiteAVSDK_TRTC;
+			path = TXLiteAVSDK_TRTC;
+			sourceTree = "<group>";
+		};
+		8E7694EB0503634A188901476BA1D630 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1119B16392AB995B5C3B66E78F364F8 /* Pods-GSLLivePlayer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8BAE6EEBBAA0610EEE8212DDB8F7DD8 /* GSLKit */ = {
+			isa = PBXGroup;
+			children = (
+				ADB70B3B4DDD86B7BC6C25CB4C56B5F6 /* GSLFileManager.h */,
+				0E91D5F1879D4CEE7C5C91A126483654 /* GSLJSON.h */,
+				E580441ED5B11F51A26ACF791D405E53 /* GSLKit.h */,
+				5691152647F08A5937BD8721A5BA4056 /* GSLReachabilityManager.h */,
+				421915F0A98E4305E8C237B0A2879094 /* GSLUtilities.h */,
+				DB288EE34E356AB2642B3B820DE981BC /* NSArray+GSLAddition.h */,
+				93088C0AD8230EB62CD0EB7A1DD3DC27 /* NSData+GSLAddition.h */,
+				9A13FFB92F3541BC18842C12991C29E6 /* NSDate+GSLAddition.h */,
+				53AB2669C047423BC7FE1ED5957E2760 /* NSMutableArray+GSLAddition.h */,
+				37FB4BD85A5D4143707F5D1C566C767D /* NSMutableDictionary+GSLAddition.h */,
+				A2193AFD924BF03DD806EA42F4B8AC73 /* NSNull+GSLAddition.h */,
+				7A5EA42688EF02AF6BAAC55884914DBC /* NSString+GSLAddition.h */,
+				39AFC98AB5DB7998FD8B82F23AE3ADCF /* UIDevice+GSLAddition.h */,
+				B8B6902A93A46FFC2E2C3031E5967004 /* UIWindow+GSLAddition.h */,
+				616FBFD14C4BE7F79FC81A45ED8D2086 /* Frameworks */,
+				4D75EBF7B1E187A2CA32978220493971 /* Support Files */,
+			);
+			name = GSLKit;
+			path = GSLKit;
+			sourceTree = "<group>";
+		};
+		CBB9709A19C9FD7B7CEC44AA80310B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D032983EB9D51170ACFF2A82E5B1DA1 /* GSLSignalingCenterFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				49F4CFF8779995138CBD02633A97A468 /* Pods */,
+				ED72D4653DCA630391B4D0156E3B521C /* Products */,
+				8E7694EB0503634A188901476BA1D630 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4DC1B1BDA17E2A445E9439A810FB698 /* GSLSignalingCenter */ = {
+			isa = PBXGroup;
+			children = (
+				024DE20744C014A42BF772AA9D369C7E /* GSLSignalingCenter.h */,
+				0B075338ADB1EE0F8540DD0C8C5513E2 /* GSLSignalingCenterDef.h */,
+				9B9A0352854194E1E62F15600DD64E0F /* GSLSignalingCenterDelegate.h */,
+				2FDFCE0B8E1188D133BB0F4A5323B526 /* GSLSignalingCenterFramework.h */,
+				CBB9709A19C9FD7B7CEC44AA80310B99 /* Frameworks */,
+				11F6F5E408F5955D79694D0A4437352B /* Support Files */,
+			);
+			name = GSLSignalingCenter;
+			path = GSLSignalingCenter;
+			sourceTree = "<group>";
+		};
+		ED72D4653DCA630391B4D0156E3B521C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFEEEE24797564B38C88571CC74FAEC /* libPods-GSLLivePlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1119B16392AB995B5C3B66E78F364F8 /* Pods-GSLLivePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				51E7BFCCCD1127F733B2A05B5122C1CC /* Pods-GSLLivePlayer-acknowledgements.markdown */,
+				8EDC17C7EC4CC81974E07008A8FF7293 /* Pods-GSLLivePlayer-acknowledgements.plist */,
+				078B7FBDC38C751EDB0532A3D939DF81 /* Pods-GSLLivePlayer-dummy.m */,
+				06795666CDB85F023E11ECBC7AD449D9 /* Pods-GSLLivePlayer-frameworks.sh */,
+				018E288CB8B7F667BA7C4DEEC789979D /* Pods-GSLLivePlayer.debug.xcconfig */,
+				9C2BCB9B6E76877B40A93550787427E4 /* Pods-GSLLivePlayer.release.xcconfig */,
+			);
+			name = "Pods-GSLLivePlayer";
+			path = "Target Support Files/Pods-GSLLivePlayer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD3A8D73BD1207AA24D9662DA2B1C7C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3ED6FD060F736D490DC97DB083CF35C /* Pods-GSLLivePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDEDA9605BA7F8D113965BBAD485DC32 /* Build configuration list for PBXNativeTarget "Pods-GSLLivePlayer" */;
+			buildPhases = (
+				BD3A8D73BD1207AA24D9662DA2B1C7C3 /* Headers */,
+				25E1D119A8A3E2DD38DCF14F560A0DE4 /* Sources */,
+				C099BA8CEC9AAF639D25BA4AE30C2CDE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143D34F9D254556087F8C393485F697F /* PBXTargetDependency */,
+				9EBA7629B5387E010AE7FD8A11F65BE0 /* PBXTargetDependency */,
+				62487DE72433912A901BCCA0CD8773E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-GSLLivePlayer";
+			productName = "Pods-GSLLivePlayer";
+			productReference = 7EFEEEE24797564B38C88571CC74FAEC /* libPods-GSLLivePlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ED72D4653DCA630391B4D0156E3B521C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B26620C5E4A14EEBBAD65C893BFEA4 /* GSLKit */,
+				3C4E208660615890D85AA63F67C5E0E7 /* GSLSignalingCenter */,
+				A3ED6FD060F736D490DC97DB083CF35C /* Pods-GSLLivePlayer */,
+				F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E1D119A8A3E2DD38DCF14F560A0DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21660035AEAEBF7231784331122FB6B4 /* Pods-GSLLivePlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143D34F9D254556087F8C393485F697F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSLKit;
+			target = A1B26620C5E4A14EEBBAD65C893BFEA4 /* GSLKit */;
+			targetProxy = 76FBC61908D267D2024650436B147228 /* PBXContainerItemProxy */;
+		};
+		4E29DF1E8D2E28C388924F8E25CE66FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSLKit;
+			target = A1B26620C5E4A14EEBBAD65C893BFEA4 /* GSLKit */;
+			targetProxy = 88755D78439A1170E3C78DA84069794D /* PBXContainerItemProxy */;
+		};
+		62487DE72433912A901BCCA0CD8773E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXLiteAVSDK_TRTC;
+			target = F7FA33F6627F67543E21479491D5E3DD /* TXLiteAVSDK_TRTC */;
+			targetProxy = 881FE920372001362B9A530862894C51 /* PBXContainerItemProxy */;
+		};
+		9EBA7629B5387E010AE7FD8A11F65BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSLSignalingCenter;
+			target = 3C4E208660615890D85AA63F67C5E0E7 /* GSLSignalingCenter */;
+			targetProxy = 52B41C4EDDC9391C39A479D85F5AF0E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0432CA9045AD092241C00FDBD8A42328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67935C2185DC1120CE3828C473F1D75 /* GSLSignalingCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EAE2ED5CDF5F3F79A86C11999D87F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A855ADB777CD58958ED898C76F9494 /* GSLKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22BB3552C32450088BB0F2621F12A983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AA384A1622CE7AFF1F613882888899 /* TXLiteAVSDK_TRTC.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D77F8C002FCE9654A7ADD68ABBF5EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AA384A1622CE7AFF1F613882888899 /* TXLiteAVSDK_TRTC.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883B7EC79A0F210AA9923C726A67A860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67935C2185DC1120CE3828C473F1D75 /* GSLSignalingCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8880B10737D0BEAE210974E16CEA9D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A855ADB777CD58958ED898C76F9494 /* GSLKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE47086585A6653D62478124EFAADF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018E288CB8B7F667BA7C4DEEC789979D /* Pods-GSLLivePlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF73D9739841A5C712EF2E97C0F12D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2BCB9B6E76877B40A93550787427E4 /* Pods-GSLLivePlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D49C7C380133C9E789E8652BB431C89 /* Build configuration list for PBXAggregateTarget "TXLiteAVSDK_TRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BB3552C32450088BB0F2621F12A983 /* Debug */,
+				7D77F8C002FCE9654A7ADD68ABBF5EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EA7493B4A8FF80AD79E56B55083AAC /* Build configuration list for PBXAggregateTarget "GSLSignalingCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0432CA9045AD092241C00FDBD8A42328 /* Debug */,
+				883B7EC79A0F210AA9923C726A67A860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A153A8827D29480FAD3B699B727054 /* Build configuration list for PBXAggregateTarget "GSLKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EAE2ED5CDF5F3F79A86C11999D87F1 /* Debug */,
+				8880B10737D0BEAE210974E16CEA9D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDEDA9605BA7F8D113965BBAD485DC32 /* Build configuration list for PBXNativeTarget "Pods-GSLLivePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE47086585A6653D62478124EFAADF45 /* Debug */,
+				FDF73D9739841A5C712EF2E97C0F12D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
