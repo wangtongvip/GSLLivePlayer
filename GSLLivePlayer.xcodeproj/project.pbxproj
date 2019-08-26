@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6511C0B4230FE258005FE836 /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */; };
-		6511C0B5230FE258005FE836 /* GSLLivePlayerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		652D52F122CC856B007451FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F022CC856B007451FA /* AppDelegate.m */; };
 		652D52F722CC856B007451FA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F622CC856B007451FA /* DemoViewController.m */; };
 		652D52FA22CC856B007451FA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D52F922CC856B007451FA /* SettingViewController.m */; };
@@ -40,6 +38,8 @@
 		6585672522E04ED5003F4076 /* PreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6585672422E04ED5003F4076 /* PreviewView.m */; };
 		65DCE46922E1DF3D0039CF65 /* LiveControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DCE46822E1DF3D0039CF65 /* LiveControlView.m */; };
 		65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E042FD22CEEEC300B8414E /* libc++.tbd */; };
+		65FB1FF2231399D000FCAB48 /* GSLLivePlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */; };
+		65FB1FF3231399D000FCAB48 /* GSLLivePlayerFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6511C0AB230FE22C005FE836 /* GSLLivePlayerFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CA1B27604C25F018DA2532F7 /* libPods-GSLLivePlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8564000B9345D44CD30E443 /* libPods-GSLLivePlayer.a */; };
 /* End PBXBuildFile section */
 
@@ -61,13 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		65695C8522F2957000518FDA /* Embed Frameworks */ = {
+		65FB1FF4231399D000FCAB48 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6511C0B5230FE258005FE836 /* GSLLivePlayerFramework.framework in Embed Frameworks */,
+				65FB1FF3231399D000FCAB48 /* GSLLivePlayerFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +146,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6511C0B4230FE258005FE836 /* GSLLivePlayerFramework.framework in Frameworks */,
 				657431E822F199F900D12531 /* UIKit.framework in Frameworks */,
 				65E042FE22CEEEC400B8414E /* libc++.tbd in Frameworks */,
+				65FB1FF2231399D000FCAB48 /* GSLLivePlayerFramework.framework in Frameworks */,
 				CA1B27604C25F018DA2532F7 /* libPods-GSLLivePlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,8 +355,8 @@
 				652D52E822CC856B007451FA /* Sources */,
 				652D52E922CC856B007451FA /* Frameworks */,
 				652D52EA22CC856B007451FA /* Resources */,
-				65695C8522F2957000518FDA /* Embed Frameworks */,
 				37C5F6AA57622F558A251B0F /* [CP] Embed Pods Frameworks */,
+				65FB1FF4231399D000FCAB48 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

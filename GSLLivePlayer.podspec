@@ -148,5 +148,6 @@ Pod::Spec.new do |spec|
   spec.dependency "GSLSignalingCenter", "~> 0.0.1"
   spec.dependency "TXLiteAVSDK_TRTC", "~> 6.6.7459"
   # spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64 i386' }
+  spec.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
 end
