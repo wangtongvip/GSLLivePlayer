@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.dependency "GSLKit", "~> 0.0.1"
   spec.dependency "GSLSignalingCenter", "~> 0.0.1"
-  spec.dependency "TXLiteAVSDK_TRTC", "~> 6.6.7459"
+  # spec.dependency "TXLiteAVSDK_TRTC", "~> 6.6.7459"
 
   spec.xcconfig = { "VALID_ARCHS" =>  "arm64 armv7 armv7s x86_64"}
 
