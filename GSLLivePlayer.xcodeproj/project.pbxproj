@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -341,7 +341,6 @@
 				55DAA58BDD78C15F1EA4B84F /* Pods-GSLLivePlayer.debug.xcconfig */,
 				BBB687233B0DB03A72F9DFA3 /* Pods-GSLLivePlayer.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -716,7 +715,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87JKJ3JM87;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSLLivePlayer/GSLLivePlayerDemo",
@@ -729,7 +728,8 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				OTHER_LDFLAGS = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -745,7 +745,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87JKJ3JM87;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GSLLivePlayer/GSLLivePlayerDemo",
@@ -758,7 +758,8 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_execute;
-				OTHER_LDFLAGS = "";
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = WT.GSLLivePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
